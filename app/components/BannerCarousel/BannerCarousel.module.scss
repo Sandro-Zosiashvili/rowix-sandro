@@ -1,0 +1,38 @@
+.scrollContainer {
+  width: 100%;
+  overflow: hidden;
+  padding: 1.0417vw 0;
+  background-color: #0F0F0F;
+  border-radius: 12px;
+}
+
+.scrollContent {
+  display: flex;
+  gap: 0.5208vw;
+  animation: scroll 20s linear infinite;
+  white-space: nowrap;
+}
+
+.scrollItem {
+  display: flex;
+  gap: 0.5208vw;
+  font-size: 1.0417vw;
+  color: #676665;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.dot {
+  color: #CE7D63;
+  width: 0.3646vw;
+  height: 0.3646vw;
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}

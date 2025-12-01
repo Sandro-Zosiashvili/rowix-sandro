@@ -1,0 +1,36 @@
+.container {
+  width: 62.8646vw;
+  height: 30.8333vw;
+  background-color: #1A1A1A;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  position: relative;
+}
+
+.fontWrapper {
+  width: 38.4375vw;
+  display: flex;
+}
+.startButton {
+  position:  absolute;
+  right: 5.0688vw;
+  top: 5.4979vw;
+}
+
+.descriptionWrapper {
+  width: 51.6813vw;
+  margin-top: 1.0417vw;
+}
+
+.carousel {
+  width: 100%;
+  padding: 0 1.0417vw 0 1.0417vw;
+  margin-bottom: 1.0417vw;
+}
+
+.contentWrapper {
+  padding-top: 5.2083vw;
+  padding-left: 4.1667vw;
+}

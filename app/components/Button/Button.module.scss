@@ -1,0 +1,67 @@
+.normal {
+  padding: 0.9375vw 1.25vw;
+  width: 100%;
+  border: none;
+  background-color: #CE7D63;
+  border-radius: 12px;
+  color: #0F0F0F;
+  font-family: "Roboto Mono", monospace;
+  font-weight: 500;
+  font-size: 0.9375vw;
+  cursor: pointer;
+}
+
+.icon {
+  padding: 1.0417vw;
+  background-color: #0F0F0F;
+  border: 1px solid #262626;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.icon img {
+  width: 0.8333vw;
+  height: 0.8333vw;
+}
+
+.cube {
+  padding: 0.8333vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 12px;
+  background-color: #1F1F1F;
+  border: 1px solid #333333;
+  cursor: pointer;
+}
+
+.cube img {
+  width: 1.7708vw;
+  height: 1.7708vw;
+}
+
+.link {
+  width: 2.7083vw;
+  height: 2.7083vw;
+  border: 1px solid #333333;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #1F1F1F;
+  cursor: pointer;
+}
+
+.link img {
+  width: 0.8333vw;
+  height: 0.8333vw;
+}
+
+
+
+
+
+
