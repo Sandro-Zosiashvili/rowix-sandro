@@ -1,31 +1,39 @@
-
 .container {
   width: 30.8854vw;
   height: 30.8333vw;
   background-color: #1F1F1F;
   position: relative;
-
+  border-radius: 14px;
 }
 
 .bannerImage {
   width: 100%;
-
 }
 
-.bannerImage img {
+.mainBannerImage {
   width: 30.8854vw;
-  background-color: red;
+  background-color: #0F0F0F;
 }
 
 .ButtonStart {
-  width: 2.5833vw;
-  height: 2.5833vw;
+  width: 7.5833vw;
+  height: 7.5833vw;
   position: absolute;
-  left: 0;
+  right: 0;
+  top: 0.4765vw;
 }
 
 .bannerFooter {
   width: 100%;
-  background-color: purple;
+  padding: 1.5625vw 0 0 1.5625vw;
+  display: flex;
+  flex-direction: column;
+  gap: 0.2083vw;
+}
 
+.bannerTitle {
+  color: #F9EFEC;
+  font-family: "Roboto Flex", sans-serif;
+  font-weight: 500;
+  font-size: 1.25vw;
 }

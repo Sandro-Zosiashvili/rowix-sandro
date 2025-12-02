@@ -1,6 +1,7 @@
 import type {Metadata} from "next";
 import {Geist, Geist_Mono} from "next/font/google";
-import { Inter, Roboto_Mono, Roboto } from 'next/font/google'
+import {Inter, Roboto_Mono, Roboto} from 'next/font/google'
+import Header from './components/Header/Header'
 import "./globals.css";
 
 const geistSans = Geist({
@@ -28,7 +29,7 @@ export default function RootLayout({
     children: React.ReactNode;
 }>) {
     return (
-        <html lang="en" >
+        <html lang="en">
         <head>
             <link rel="preconnect" href="https://fonts.googleapis.com"/>
             <link rel="preconnect" href="https://fonts.gstatic.com"/>
@@ -42,6 +43,7 @@ export default function RootLayout({
                 rel="stylesheet"/>
         </head>
         <body>
+        <Header/>
         {children}
         </body>
         </html>
