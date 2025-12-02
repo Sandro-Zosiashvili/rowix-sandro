@@ -11,7 +11,7 @@ const CompanyInfo = ({title, info, moreInfo}: Props) => {
 
     if (moreInfo) return (
             <div className={styles.moreInfoContainer}>
-                <Button type={"icon"} icon={'./icons/arrow.svg'}/>
+                <Button type={"icon"} icon={'arrow.svg'}/>
                 <p className={styles.moreInfoTitle}>{title}</p>
             </div>
         )

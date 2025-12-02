@@ -1,0 +1,39 @@
+.container {
+  width: 22.3958vw;
+  height: 20.7292vw;
+  background-color: #1A1A1A;
+  border-radius: 14px;
+  padding: 2.0833vw 0 2.0833vw 2.0833vw;
+  display:  flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+}
+
+.title {
+  text-transform: uppercase;
+  font-family: "Roboto Flex", sans-serif;
+  font-size: 1.5625vw;
+  font-weight: 500;
+  color: #F9EFEC;
+}
+.infoWrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 0.625vw;
+  width: 18.2292vw;
+}
+.ButtonWrapper {
+  display: flex;
+  align-items: center;
+  gap: 0.5208vw;
+}
+.ButtonTitle {
+  font-family: "Roboto Flex", sans-serif;
+  font-size: 0.9375vw;
+  font-weight: 400;
+  color: #B3B3B2;
+}
+.descriptionWrapper {
+  margin-top: 0.625vw;
+}

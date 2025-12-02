@@ -1,0 +1,81 @@
+.container {
+  width: 30.1563vw;
+  height: 22.1875vw;
+  padding: 3.125vw 2.0833vw;
+  background-color: #1A1A1A;
+  border-radius: 14px;
+}
+
+.leftHeaderWrapper {
+  display: flex;
+  align-items: center;
+  gap: 0.7292vw;
+}
+
+.headerWrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.moreDetails {
+  font-size: 1.0417vw;
+  color: #B3B3B2;
+  font-family: "Roboto Mono", monospace;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+.title {
+  font-weight: 500;
+  color: #F9EFEC;
+  text-transform: uppercase;
+  font-family: "Roboto Flex", sans-serif;
+}
+
+.moreInfoWrapper {
+  display: flex;
+  gap: 0.5208vw;
+  align-items: center;
+}
+
+.dot {
+  background-color: #CE7D63;
+  width: 0.2083vw;
+  height: 0.2083vw;
+  border-radius: 50%;
+}
+.worksInfoWrapper {
+  display: flex;
+  align-items: center;
+  justify-content:  center;
+  gap: 0.4167vw;
+  width: 16.9271vw;
+  height: 2.4479vw;
+  background-color: #1F1F1F;
+  border-radius: 45px;
+  background-color: red;
+}
+.worksInfoWrapperSecond {
+  display: flex;
+  align-items: center;
+  justify-content:  center;
+  gap: 0.4167vw;
+  width: 11.3542vw;
+  height: 2.4479vw;
+  background-color: #1F1F1F;
+  border-radius: 45px;
+  background-color: red;
+}
+
+.infoCategory {
+  font-family: "Roboto Flex", sans-serif;
+  font-weight: 400;
+  font-size: 0.9375vw;
+  color: #B3B3B2;
+}
+.infoTitle {
+  font-family: "Roboto Flex", sans-serif;
+  font-weight: 500;
+  font-size: 0.9375vw;
+  color: #E6E6E6;
+}

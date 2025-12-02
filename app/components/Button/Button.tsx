@@ -11,7 +11,7 @@ const Button = (props:  Props) => {
         <button className={styles[props.type]}>
             {props.title}
             {props.icon &&
-                <img src={props.icon} alt={props.title} />
+                <img src={`./icons/${props.icon}`} alt={props.title} />
             }
         </button>
     )

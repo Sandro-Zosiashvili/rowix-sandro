@@ -1,0 +1,55 @@
+.container {
+  width: 45.8333vw;
+  height: 20.5729vw;
+  background-color: #1A1A1A;
+  border-radius: 14px;
+  padding: 4.1667vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.serviceHeader {
+  display: flex;
+  justify-content: space-between;
+}
+
+.titleWrapper {
+  display: flex;
+  gap: 0.7292vw;
+  align-items: center;
+}
+
+.title {
+  color: #F9EFEC;
+  text-transform: uppercase;
+  font-family: "Roboto Flex", sans-serif;
+  font-weight: 500;
+  font-size: 1.5625vw;
+}
+
+.moreInfo {
+  display: flex;
+  align-items: center;
+  gap: 0.7292vw;
+}
+
+.moreInfoTitle {
+  color: #B3B3B2;
+  text-transform: uppercase;
+  font-family: "Roboto Mono", monospace;
+  font-weight: 500;
+  font-size: 1.0417vw;
+}
+
+
+.price {
+  width: 100%;
+  text-align: right;
+  color: #F9EFEC;
+  font-weight: 500;
+  font-size: 1.5625vw;
+  font-family: "Roboto Flex", sans-serif;
+  text-transform: uppercase;
+}
+
