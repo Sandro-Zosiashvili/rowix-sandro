@@ -8,9 +8,9 @@ export default function Home() {
     return (
         <div className={styles.page}>
             <WorksSection/>
-            <HeroSection/>
-            <ReasonsSection/>
-            <ServicesSection/>
+            {/*<HeroSection/>*/}
+            {/*<ReasonsSection/>*/}
+            {/*<ServicesSection/>*/}
         </div>
     );
 }

@@ -1,0 +1,23 @@
+
+.container {
+  background-color: #1A1A1A;
+  width: 30.1563vw;
+  height: 4.6875vw;
+  padding: 1.0417vw 2.0833vw;
+  border-radius: 14px;
+  display: flex;
+  align-items: center;
+  gap: 2.0833vw;
+}
+
+.title {
+  text-transform: uppercase;
+  color: #FFFFFF;
+  font-size: 0.9375vw;
+  font-family: "Roboto Flex", sans-serif;
+  font-weight: 500;
+}
+.membersWrapper {
+  display: flex;
+  gap: 0.5208vw;
+}

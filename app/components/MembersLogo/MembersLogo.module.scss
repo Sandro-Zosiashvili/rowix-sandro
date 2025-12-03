@@ -1,0 +1,18 @@
+.container {
+  width: 2.6042vw;
+  height: 2.6042vw;
+  background-color: #E7BEB1;
+  border-radius: 50%;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  filter: grayscale(100%);
+}

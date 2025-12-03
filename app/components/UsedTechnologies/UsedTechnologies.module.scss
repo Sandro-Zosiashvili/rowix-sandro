@@ -1,0 +1,33 @@
+.container {
+  background-color: #1A1A1A;
+  width: 30.1563vw;
+  height: 11.7188vw;
+  padding: 2.0833vw;
+  display: flex;
+  flex-direction:  column;
+  gap: 1.0417vw;
+  border-radius: 14px;
+}
+
+
+.title {
+  text-transform: uppercase;
+  color: #FFFFFF;
+  font-size: 0.9375vw;
+  font-family: "Roboto Flex", sans-serif;
+  font-weight: 500;
+}
+.item {
+  padding: 0.5208vw 0.8333vw;
+  background-color: #1F1F1F;
+  border-radius: 45px;
+  font-weight: 400;
+  font-family: "Roboto Mono", monospace;
+  color: #E6E6E6;
+  font-size: 0.8333vw;
+}
+.itemWrapper {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5208vw;
+}
