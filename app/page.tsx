@@ -7,10 +7,11 @@ import WorksSection from "@/app/components/sections/WorksSection/WorksSection";
 export default function Home() {
     return (
         <div className={styles.page}>
+            <HeroSection/>
+            <ReasonsSection/>
+            <ServicesSection/>
             <WorksSection/>
-            {/*<HeroSection/>*/}
-            {/*<ReasonsSection/>*/}
-            {/*<ServicesSection/>*/}
+
         </div>
     );
 }

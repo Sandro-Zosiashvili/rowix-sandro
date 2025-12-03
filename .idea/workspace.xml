@@ -1,8 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="956ccd8a-b73b-49e5-81b4-1c12a1a1cbf9" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/components/TeamMembers/TeamMembers.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/TeamMembers/TeamMembers.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/components/UsedTechnologies/UsedTechnologies.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/UsedTechnologies/UsedTechnologies.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/components/WorksItem/WorksItem.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/WorksItem/WorksItem.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/components/sections/ReasonsSection/ReasonsSection.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/sections/ReasonsSection/ReasonsSection.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/components/sections/ServicesSection/ServicesSection.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/sections/ServicesSection/ServicesSection.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/components/sections/WorksSection/WorksSection.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/sections/WorksSection/WorksSection.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/components/sections/WorksSection/WorksSection.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/sections/WorksSection/WorksSection.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/page.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -12,22 +23,25 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "savle-zosiashvili-tbc-it-academy"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;savle-zosiashvili-tbc-it-academy&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/Sandro-Zosiashvili/rowix-sandro.git",
-    "accountId": "7f1ee6dd-ac60-4bf7-9b72-32553f345b48"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Sandro-Zosiashvili/rowix-sandro.git&quot;,
+    &quot;accountId&quot;: &quot;7f1ee6dd-ac60-4bf7-9b72-32553f345b48&quot;
   }
-}]]></component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 8
-}]]></component>
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
   <component name="ProjectId" id="36FXnnP9z2m0umPsdPbG6h3wJXQ" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -39,14 +53,42 @@
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager": "true",
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "main",
+    "js.debugger.nextJs.config.created.client": "true",
+    "js.debugger.nextJs.config.created.server": "true",
+    "last_opened_file_path": "/Users/sandro/Downloads/Github/rowix-sandro/public/fonts",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.lookFeel",
+    "ts.external.directory.path": "/Users/sandro/Downloads/Github/rowix-sandro/node_modules/typescript/lib",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/public/fonts" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/public/icons" />
+    </key>
+  </component>
+  <component name="RunManager" selected="npm.Next.js: server-side">
+    <configuration name="Next.js: debug client-side" type="JavascriptDebugType" uri="http://localhost:3000/">
+      <method v="2" />
+    </configuration>
+    <configuration name="Next.js: server-side" type="js.build_tools.npm">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="dev" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -61,11 +103,22 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1764603463398</updated>
-      <workItem from="1764603464629" duration="330000" />
+      <workItem from="1764603464629" duration="50929000" />
+      <workItem from="1764766861094" duration="3318000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/app/components/UsedTechnologies/UsedTechnologies.tsx</url>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

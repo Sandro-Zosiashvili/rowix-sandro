@@ -1,8 +1,9 @@
 .container {
-  background-color: red;
   width: 100%;
-  height: 100vh;
-
+  display: flex;
+  flex-direction: column;
+  gap: 1.0417vw;
+  margin-top: 120px;
 }
 
 .title {
@@ -13,7 +14,6 @@
   height: 8.75vw;
   border-radius: 16px;
   background-color: #1A1A1A;
-
 }
 
 .details {
@@ -31,8 +31,23 @@
 
 .worksInfo {
   width: 100%;
-  background-color: purple;
   height: 24.2708vw;
+  display: flex;
+  justify-content: space-between;
+  padding: 1.0417vw;
+  border-radius: 20px;
+  border: 2px solid #1F1F1F;
+}
+
+.image {
+  width: 30.1563vw;
+  height: 22.1875vw;
+}
+
+.aboutProject {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 
