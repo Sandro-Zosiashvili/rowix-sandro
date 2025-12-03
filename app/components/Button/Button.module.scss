@@ -61,6 +61,22 @@
 }
 
 
+.more {
+  width: 2.7083vw;
+  height: 2.7083vw;
+  border: 1px solid #333333;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #1F1F1F;
+  cursor: pointer;
+}
+.more img {
+  width: 1.25vw;
+  height: 1.25vw;
+}
+
 
 
 

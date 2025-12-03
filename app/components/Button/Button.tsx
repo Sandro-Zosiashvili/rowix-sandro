@@ -1,7 +1,7 @@
 import styles from './Button.module.scss'
 
 interface Props {
-    type: 'normal' | 'icon' | 'cube' | 'link';
+    type: 'normal' | 'icon' | 'cube' | 'link' | 'more';
     title?: string;
     icon?: string;
 }

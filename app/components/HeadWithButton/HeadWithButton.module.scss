@@ -1,0 +1,26 @@
+.headWithButton {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 2.6042vw 0 2.6042vw;
+  height: 8.75vw;
+  border-radius: 16px;
+  background-color: #1A1A1A;
+}
+
+
+.details {
+  display: flex;
+  align-items: center;
+  gap: 0.5208vw;
+  cursor: pointer;
+}
+
+.infoTitle {
+  color: #B3B3B2;
+  font-weight: 500;
+  font-family: "Roboto Mono", monospace;
+  font-size: 1.0417vw;
+  text-transform: uppercase;
+}
+

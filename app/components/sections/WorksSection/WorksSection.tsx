@@ -4,10 +4,20 @@ import UsedTechnologies from "@/app/components/UsedTechnologies/UsedTechnologies
 import Button from '../../Button/Button'
 import TeamMembers from '../../TeamMembers/TeamMembers'
 import Title from "@/app/components/Title/Title";
+import HeadWithButton from "@/app/components/HeadWithButton/HeadWithButton";
 
+
+type Data = {
+    title: string;
+    description: string;
+    category: string;
+    time: string;
+    icon: string;
+    id: number;
+}
 
 const WorksSection = () => {
-    const data = {
+    const data: Data = {
         title: "Zenith Fitness App",
         description: "An all-in-one health and wellness app that offers personalized fitness plans, nutrition guidance, and virtual workout classes.",
         category: "Mobile App Development",
@@ -15,7 +25,7 @@ const WorksSection = () => {
         icon: "Magic-Stick.svg",
         id: 1
     }
-    const data2 = {
+    const data2: Data = {
         title: "A-Aura Ecommerce",
         description: "A complete overhaul of a corporate website to enhance its brand identity and user experience.",
         category: "Web Design & Development",
@@ -25,15 +35,8 @@ const WorksSection = () => {
     }
 
     return (
-
         <div className={styles.container}>
-            <div className={styles.title}>
-                <Title title={"Our Works"}/>
-                <div className={styles.details}>
-                    <Button type={'link'} icon={"arrow.svg"}/>
-                    <p className={styles.infoTitle}>DETAILS</p>
-                </div>
-            </div>
+            <HeadWithButton title={"Our Works"} infoTitle={"ALL WORKS"} />
             <div className={styles.worksInfo}>
                 <WorksItem title={data.title} description={data.description} category={data.category}
                            time={data.time} icon={data.icon}/>

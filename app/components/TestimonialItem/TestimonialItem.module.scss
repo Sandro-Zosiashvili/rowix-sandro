@@ -1,0 +1,23 @@
+.container {
+  width: 22.3958vw;
+  border-radius: 14px;
+}
+
+
+.header {
+  padding: 2.0833vw 2.0833vw 2.0833vw 2.0833vw;
+  background-color: #1A1A1A;
+  display: flex;
+  flex-direction: column;
+  border-radius: 14px 14px 0 0;
+  gap: 1.25vw;
+}
+
+.title {
+  font-family: "Roboto Flex", sans-serif;
+  font-size: 1.1458vw;
+  color: #F9EFEC;
+  font-weight: 500;
+  text-transform: uppercase;
+
+}

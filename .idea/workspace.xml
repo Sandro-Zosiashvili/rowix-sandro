@@ -5,13 +5,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="956ccd8a-b73b-49e5-81b4-1c12a1a1cbf9" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/app/components/HeadWithButton/HeadWithButton.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/components/HeadWithButton/HeadWithButton.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/components/TestimonialItem/TestimonialItem.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/components/TestimonialItem/TestimonialItem.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/components/TestimonialPersonItem/TestimonialPersonItem.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/components/TestimonialPersonItem/TestimonialPersonItem.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/components/sections/Questions/Questions.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/components/sections/Questions/Questions.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/components/sections/TestimonialsSection/TestimonialsSection.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/components/sections/TestimonialsSection/TestimonialsSection.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/components/Button/Button.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/Button/Button.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/components/Button/Button.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/Button/Button.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/components/MembersLogo/MembersLogo.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/MembersLogo/MembersLogo.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/components/MembersLogo/MembersLogo.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/MembersLogo/MembersLogo.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/components/TeamMembers/TeamMembers.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/TeamMembers/TeamMembers.module.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/components/TeamMembers/TeamMembers.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/TeamMembers/TeamMembers.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/components/UsedTechnologies/UsedTechnologies.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/UsedTechnologies/UsedTechnologies.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/components/WorksItem/WorksItem.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/WorksItem/WorksItem.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/components/sections/ReasonsSection/ReasonsSection.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/sections/ReasonsSection/ReasonsSection.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/components/sections/ServicesSection/ServicesSection.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/sections/ServicesSection/ServicesSection.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/components/sections/WorksSection/WorksSection.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/sections/WorksSection/WorksSection.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/components/sections/HeroSection/HeroSection.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/sections/HeroSection/HeroSection.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/components/sections/HeroSection/HeroSection.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/sections/HeroSection/HeroSection.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/components/sections/WorksSection/WorksSection.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/sections/WorksSection/WorksSection.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/page.tsx" afterDir="false" />
     </list>
@@ -104,7 +116,7 @@
       <option name="presentableId" value="Default" />
       <updated>1764603463398</updated>
       <workItem from="1764603464629" duration="50929000" />
-      <workItem from="1764766861094" duration="3318000" />
+      <workItem from="1764766861094" duration="11999000" />
     </task>
     <servers />
   </component>

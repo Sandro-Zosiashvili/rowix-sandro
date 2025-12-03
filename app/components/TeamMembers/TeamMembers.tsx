@@ -6,7 +6,7 @@ interface Props {
 }
 
 const TeamMembers = (props: Props) => {
-    const membersData = props.images.map((image, index) => ({
+    const membersData = props.images?.map((image, index) => ({
         image: image,
         id: index + 1
     }));
