@@ -4,17 +4,18 @@ import ReasonsSection from "@/app/components/sections/ReasonsSection/ReasonsSect
 import ServicesSection from './components/sections/ServicesSection/ServicesSection'
 import WorksSection from "@/app/components/sections/WorksSection/WorksSection";
 import TestimonialsSection from "@/app/components/sections/TestimonialsSection/TestimonialsSection";
-import Questions from "@/app/components/sections/Questions/Questions";
+import QuestionsSection from "@/app/components/sections/QuestionsSection/QuestionsSection";
 
 export default function Home() {
     return (
         <div className={styles.page}>
-            <Questions />
-            {/*<HeroSection/>*/}
-            {/*<ReasonsSection/>*/}
-            {/*<ServicesSection/>*/}
-            {/*<WorksSection/>*/}
-            {/*<TestimonialsSection />*/}
+            <HeroSection/>
+            <ReasonsSection/>
+            <ServicesSection/>
+            <WorksSection/>
+            <TestimonialsSection/>
+            <QuestionsSection/>
+
         </div>
     );
 }

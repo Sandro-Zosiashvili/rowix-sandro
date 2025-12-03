@@ -1,0 +1,43 @@
+.container {
+  padding: 3.125vw;
+  width: 38.8542vw;
+  background-color: #1A1A1A;
+  border-radius: 14px;
+  display: flex;
+  flex-direction: column;
+  gap: 2.6042vw;
+}
+
+.title {
+  font-size: 1.25vw;
+  color: #F9EFEC;
+  font-family: "Roboto Flex", sans-serif;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+.line {
+  border-bottom: 1px solid #262626;
+}
+
+.inputBar {
+  height: 24.1667vw;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 1.0417vw;
+}
+
+.inputLayout {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5208vw;
+}
+
+.inputTitle {
+  font-family: "Roboto Flex", sans-serif;
+  color: #F3DFD8;
+  font-size: 0.9375vw;
+  font-weight: 500;
+  text-transform: uppercase;
+}

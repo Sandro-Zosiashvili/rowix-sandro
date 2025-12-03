@@ -1,0 +1,45 @@
+
+.container {
+  width: 32.6042vw;
+  padding: 1.25vw;
+  background-color: #0F0F0F;
+  border: none;
+  color: #F9EFEC;
+  font-size: 0.9375vw;
+  font-family: "Roboto Flex", sans-serif;
+  border-radius: 10px;
+}
+
+.container:focus {
+  outline: none;
+}
+
+.container::placeholder {
+  color: #676665;
+  font-family: "Roboto Flex", sans-serif;
+
+}
+.containerArea {
+  width: 32.6042vw;
+  height: 8.9583vw;
+  padding: 1.25vw;
+  background-color: #0F0F0F;
+  border: none;
+  color: #F9EFEC;
+  font-size: 0.9375vw;
+  font-family: "Roboto Flex", sans-serif;
+  border-radius: 10px;
+  resize: none;
+  &::-webkit-scrollbar {
+    display: none;
+  }
+}
+
+.containerArea:focus {
+  outline: none;
+}
+
+.containerArea::placeholder {
+  color: #676665;
+  font-family: "Roboto Flex", sans-serif;
+}
