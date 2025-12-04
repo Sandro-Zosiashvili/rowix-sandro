@@ -1,26 +1,22 @@
 import styles from './UsedTechnologies.module.scss'
 
-
 type Props = {
     technologies?: string[];
 }
 
 const UsedTechnologies = (props: Props) => {
-
     return (
         <div className={styles.container}>
-            <div className={styles.title}>Technologies Used</div>
-            <div className={styles.itemWrapper}>
-                {
-                    props.technologies?.map((item, index) => (
-                        <div className={styles.item} key={index}>
-                            {item}
-                        </div>
-                    ))
-                }
-            </div>
+            <h3 className={styles.title}>Technologies Used</h3>
+            <ul className={styles.itemWrapper}>
+                {props.technologies?.map((item, index) => (
+                    <li className={styles.item} key={index}>
+                        {item}
+                    </li>
+                ))}
+            </ul>
         </div>
     )
 }
 
-export default UsedTechnologies
+export default UsedTechnologies;

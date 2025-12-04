@@ -12,13 +12,13 @@ const HeroSection = () => {
     }, [])
 
     return (
-        <div ref={ref} className={`${styles.container} ${styles.fadeUp}`}>
+        <section ref={ref} className={`${styles.container} ${styles.fadeUp}`}>
             <div className={styles.heroLayout}>
                 <HeroBanner/>
                 <BannerImage/>
             </div>
             <InfoBanner />
-        </div>
+        </section>
     )
 }
 

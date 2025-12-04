@@ -1,6 +1,10 @@
 import styles from './BannerCarousel.module.scss'
 
-const BannerCarousel = () => {
+interface Props {
+    large?: boolean;
+}
+
+const BannerCarousel = (props: Props) => {
     const items = [
         'MARKETING',
         'WEBSITE DESIGN',
@@ -9,24 +13,34 @@ const BannerCarousel = () => {
         'MOBILE APP DEVELOPMENT',
         'DIGITAL'
     ];
+    const item2 = [
+        'Follow Us on Social Media',
+        'Follow Us on Social Media',
+        'Follow Us on Social Media',
+        'Follow Us on Social Media',
+        'Follow Us on Social Media',
+        'Follow Us on Social Media'
+    ]
+    const res = props.large ? item2 : items
 
     return (
-        <div className={styles.scrollContainer}>
-            <div className={styles.scrollContent}>
-                {items.map((item, index) => (
-                    <span key={index} className={styles.scrollItem}>
-            {item}
+        <section className={`${styles.scrollContainer} ${props.large ? styles.large : ''}`}>
+            <ul className={styles.scrollContent}>
+                {res.map((item, index) => (
+                    <li key={index} className={styles.scrollItem}>
+                        {item}
                         <span className={styles.dot}>•</span>
-          </span>
+                    </li>
                 ))}
-                {items.map((item, index) => (
-                    <span key={`dup-${index}`} className={styles.scrollItem}>
-            {item}
+
+                {res.map((item, index) => (
+                    <li key={`dup-${index}`} className={styles.scrollItem}>
+                        {item}
                         <span className={styles.dot}></span>
-          </span>
+                    </li>
                 ))}
-            </div>
-        </div>
+            </ul>
+        </section>
     );
 };
 

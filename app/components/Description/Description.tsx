@@ -1,4 +1,3 @@
-
 import styles from './Description.module.scss'
 
 interface Props {

@@ -1,0 +1,58 @@
+
+.container {
+  width: 54.8438vw;
+  height: 9.7792vw;
+  background-color: #1A1A1A;
+  padding: 2.6042vw;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 16px;
+}
+
+.title {
+  color: #676665;
+  font-weight: 400;
+  font-family: "Roboto Mono", monospace;
+  font-size: 0.9375vw;
+  text-transform: uppercase;
+}
+
+.secondTitle {
+  color: #F9EFEC;
+  font-weight: 500;
+  font-family: "Roboto Flex", sans-serif;
+  text-transform: uppercase;
+  font-size: 1.5625vw;
+}
+
+.leftWrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 0.9208vw;
+}
+
+.input {
+  width: 20.5208vw;
+  padding: 0.9375vw 1.0417vw;
+  border: none;
+  border-bottom: 1px solid #333333;
+  font-family: "Roboto Flex", sans-serif;
+  font-size: 0.9375vw;
+  color: #F9EFEC;
+  background-color: #1A1A1A;
+
+}
+
+.input::placeholder {
+  color: #676665;
+}
+
+.input:focus {
+  outline: none;
+}
+
+.inputWrapper {
+  display: flex;
+  align-items: center;
+  gap: 1.0417vw;
+}

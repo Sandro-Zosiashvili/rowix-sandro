@@ -3,18 +3,28 @@ import Description from "@/app/components/Description/Description";
 
 const BannerImage = () => {
 
-
     return (
-        <div className={styles.container}>
-            <div className={styles.bannerImage}>
-                <img className={styles.mainBannerImage} src={'./images/image.svg'} alt={"banner image"}/>
-                <img className={styles.ButtonStart} src={'./images/startButtonSecond.svg'} alt={"banner image"}/>
-            </div>
-            <div className={styles.bannerFooter}>
+        <section className={styles.container}>
+            <figure className={styles.bannerImage}>
+                <img
+                    className={styles.mainBannerImage}
+                    src={'./images/image.svg'}
+                    alt="banner image"
+                />
+
+                <img
+                    className={styles.ButtonStart}
+                    src={'./images/startButtonSecond.svg'}
+                    alt=""
+                    aria-hidden="true"
+                />
+            </figure>
+
+            <footer className={styles.bannerFooter}>
                 <p className={styles.bannerTitle}>ESTATEIN REAL ESTATE</p>
-                <Description color={"lightGray"} title={"Web Development"}/>
-            </div>
-        </div>
+                <Description color={"lightGray"} title={"Web Development"} />
+            </footer>
+        </section>
     )
 }
 

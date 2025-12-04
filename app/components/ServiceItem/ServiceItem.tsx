@@ -30,7 +30,6 @@ const ServiceItem = (props: Props) => {
             <p className={styles.price}>
                 Starts From ${props.price}
             </p>
-
         </div>
     )
 }

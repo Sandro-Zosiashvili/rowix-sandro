@@ -9,6 +9,7 @@ html, body {
   width: 100%;
   font-family: "Roboto Mono", monospace;
   background-color: #0F0F0F;
+  list-style: none;
 }
 
 a {
@@ -17,5 +18,5 @@ a {
 }
 
 body {
-  padding: 1.5625vw 2.6042vw 0 2.6042vw;
+  padding: 1.5625vw 2.6042vw 2.6042vw 2.6042vw;
 }

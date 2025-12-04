@@ -5,7 +5,7 @@ import Title from '../../Title/Title'
 type ReasonsData = {
     title: string;
     description: string;
-    id: number;
+    id?: number;
 }
 const ReasonsSection = () => {
     const title = 'Reasons to Choose NexGen for Your Digital Journey'
@@ -37,18 +37,18 @@ const ReasonsSection = () => {
     ]
 
     return (
-        <div className={styles.container}>
+        <section className={styles.container}>
             <div className={styles.title}>
                 <Title title={title}/>
             </div>
             <div className={styles.reasonItemWrappeer}>
                 {
-                    ReasonsData.map((item, index) => (
+                    ReasonsData.map((item: ReasonsData, index) => (
                         <ReasonsItem title={item.title} description={item.description} key={index}/>
                     ))
                 }
             </div>
-        </div>
+        </section>
     )
 }
 

@@ -32,7 +32,7 @@ const ServicesSection = () => {
     ]
 
     return (
-        <div className={styles.container}>
+        <section className={styles.container}>
 
             <div className={styles.title}>
                 <Title title={"Our Services"}/>
@@ -47,9 +47,8 @@ const ServicesSection = () => {
                             price={item.price}/>
                     ))
                 }
-
             </div>
-        </div>
+        </section>
     )
 }
 

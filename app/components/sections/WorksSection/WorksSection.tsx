@@ -35,7 +35,7 @@ const WorksSection = () => {
     }
 
     return (
-        <div className={styles.container}>
+        <section className={styles.container}>
             <HeadWithButton title={"Our Works"} infoTitle={"ALL WORKS"} />
             <div className={styles.worksInfo}>
                 <WorksItem title={data.title} description={data.description} category={data.category}
@@ -57,7 +57,7 @@ const WorksSection = () => {
                     <Button type={'normal'} title={"Book A Call"}/>
                 </div>
             </div>
-        </div>
+        </section>
     )
 }
 

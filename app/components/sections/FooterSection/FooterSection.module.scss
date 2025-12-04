@@ -1,0 +1,19 @@
+
+.container {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.socialMedia {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.0417vw;
+  width: 38.9583vw;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 1.0417vw;
+}

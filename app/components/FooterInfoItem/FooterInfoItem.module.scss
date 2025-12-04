@@ -1,0 +1,42 @@
+.container {
+  width: 9.8047vw;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5625vw;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 0.9375vw;
+}
+
+.itemWrapper {
+  display: flex;
+  align-items: center;
+  gap: 0.5208vw;
+}
+
+.item {
+  color: #81807E;
+  font-size: 0.9375vw;
+  font-family: "Roboto Flex", sans-serif;
+}
+
+.badge {
+  background-color: #262626;
+  border: 1px solid #333333;
+  color: #CCCCCC;
+  padding: 0.2083vw 0.625vw;
+  border-radius: 6px;
+  font-size: 0.8333vw;
+  font-family: "Roboto Mono", monospace;
+  font-weight: 400;
+}
+
+.title {
+  font-family: "Roboto Mono", monospace;
+  color: #F3DFD8;
+  font-weight: 700;
+  font-size: 1.1458vw;
+}

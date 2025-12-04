@@ -7,7 +7,7 @@ import MembersLogo from "@/app/components/MembersLogo/MembersLogo";
 interface  Props {
     image: string;
     name: string;
-    position: number;
+    position: string;
 }
 
 const TestimonialPersonItem = (props: Props) => {

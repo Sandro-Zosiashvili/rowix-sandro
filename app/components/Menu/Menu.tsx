@@ -23,9 +23,9 @@ const Menu = () => {
     ]
 
     return (
-        <div className={styles.container}>
+        <nav className={styles.container}>
             {
-                data.map((item: MenuData, index: number) => (
+                data.map((item: MenuData) => (
                     <MenuItem
                         active={pathname === item.path}
                         key={item.id}
@@ -34,7 +34,7 @@ const Menu = () => {
                     />
                 ))
             }
-        </div>
+        </nav>
     )
 }
 

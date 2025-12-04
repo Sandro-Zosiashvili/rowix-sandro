@@ -4,7 +4,28 @@
   padding: 1.0417vw 0;
   background-color: #0F0F0F;
   border-radius: 12px;
+  text-transform: uppercase;
+
+  &.large {
+    background-color: #1A1A1A;
+    margin: 1.0417vw 0 1.0417vw 0;
+
+  }
+
+  .scrollItem {
+    color: #676665;
+  }
 }
+
+//.largeScroll {
+//  width: 100%;
+//  overflow: hidden;
+//  padding: 1.0417vw 0;
+//  background-color: #1A1A1A;
+//  border-radius: 12px;
+//  color: #676665;
+//  text-transform: uppercase;
+//}
 
 .scrollContent {
   display: flex;

@@ -7,21 +7,21 @@ interface Props {
     moreInfo?: boolean;
 }
 
-const CompanyInfo = ({title, info, moreInfo}: Props) => {
+const CompanyInfo = ({ title, info, moreInfo }: Props) => {
 
     if (moreInfo) return (
-            <div className={styles.moreInfoContainer}>
-                <Button type={"icon"} icon={'arrow.svg'}/>
-                <p className={styles.moreInfoTitle}>{title}</p>
-            </div>
-        )
+        <div className={styles.moreInfoContainer}>
+            <Button type={"icon"} icon={'arrow.svg'} />
+            <p className={styles.moreInfoTitle}>{title}</p>
+        </div>
+    );
 
     return (
         <div className={styles.container}>
             <p className={styles.title}>{title}</p>
             <p className={styles.info}>{info}</p>
         </div>
-    )
+    );
 }
 
 export default CompanyInfo;

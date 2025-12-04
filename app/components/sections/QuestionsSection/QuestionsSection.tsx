@@ -50,7 +50,7 @@ const QuestionsSection = () => {
         },
     ]
     return (
-        <div className={styles.container}>
+        <section className={styles.container}>
             <HeadWithButton title={"Frequently Asked Questions"} infoTitle={"View All"}/>
             <div className={styles.wrapper}>
                 <div className={styles.questionWrapper}>
@@ -66,7 +66,7 @@ const QuestionsSection = () => {
                     <AskQuestionInput/>
                 </div>
             </div>
-        </div>
+        </section>
     )
 }
 

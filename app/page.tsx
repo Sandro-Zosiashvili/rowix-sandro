@@ -5,6 +5,9 @@ import ServicesSection from './components/sections/ServicesSection/ServicesSecti
 import WorksSection from "@/app/components/sections/WorksSection/WorksSection";
 import TestimonialsSection from "@/app/components/sections/TestimonialsSection/TestimonialsSection";
 import QuestionsSection from "@/app/components/sections/QuestionsSection/QuestionsSection";
+import Banner from "@/app/components/Banner/Banner";
+import BannerCarousel from "@/app/components/BannerCarousel/BannerCarousel";
+import FooterSection from "@/app/components/sections/FooterSection/FooterSection";
 
 export default function Home() {
     return (
@@ -15,7 +18,9 @@ export default function Home() {
             <WorksSection/>
             <TestimonialsSection/>
             <QuestionsSection/>
-
+            <Banner/>
+            <BannerCarousel large/>
+            <FooterSection />
         </div>
     );
 }

@@ -1,0 +1,25 @@
+
+.container {
+  width: 54.8438vw;
+  height: 6.6146vw;
+  background-color: #1A1A1A;
+  border-radius: 16px;
+  padding: 2.6042vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #B3B3B2;
+  font-family: "Roboto Mono", monospace;
+  font-weight: 400;
+  font-size: 0.9375vw;
+}
+
+.rightContent {
+  display: flex;
+  align-items: center;
+  gap: 0.5729vw;
+}
+.line {
+  border-left: 1px solid #232329;
+  height: 1.4063vw;
+}

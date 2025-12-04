@@ -10,6 +10,17 @@
   font-size: 0.9375vw;
   cursor: pointer;
 }
+.normal:hover {
+  background-color: #E08D73;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(206, 125, 99, 0.3);
+}
+
+.normal:active {
+  background-color: #B86D53;
+  transform: translateY(0);
+  box-shadow: 0 2px 6px rgba(206, 125, 99, 0.2);
+}
 
 .icon {
   padding: 1.0417vw;

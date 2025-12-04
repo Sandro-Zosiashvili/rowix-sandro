@@ -6,14 +6,14 @@ import TestimonialItem from "@/app/components/TestimonialItem/TestimonialItem";
 interface Data {
     title: string;
     description: string;
-    category: string;
     image: string;
+    name: string;
     position: string;
-    id: number;
+    id?: number;
 }
 
 const TestimonialsSection = () => {
-    const data: Data = [
+    const data = [
         {
             title: "NexGen turned our business around!",
             description: "Their digital marketing strategies helped us reach new customers and increase our revenue by 30% within just a few months. Highly recommended!",
@@ -50,11 +50,11 @@ const TestimonialsSection = () => {
     ]
 
     return (
-        <div className={styles.container}>
+        <section className={styles.container}>
             <HeadWithButton title={"Testimonials"} infoTitle={"ALL TESTIMONIALS"}/>
             <div className={styles.itemWrapper}>
                 {
-                    data.map((item, index) => (
+                    data.map((item: Data, index: number) => (
                         <TestimonialItem
                             key={index} description={item.description} title={item.title}
                             name={item.name}
@@ -65,7 +65,7 @@ const TestimonialsSection = () => {
                 }
             </div>
 
-        </div>
+        </section>
     )
 }
 

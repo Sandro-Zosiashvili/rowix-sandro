@@ -1,0 +1,33 @@
+
+.container {
+  width: 18.9583vw;
+  height: 17.5521vw;
+  background-color: #1A1A1A;
+  border-radius: 14px;
+  padding: 2.0833vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.socialMedias {
+  display: flex;
+  justify-content: space-between;
+}
+
+.description {
+  display: flex;
+  flex-direction: column;
+  gap: 0.625vw;
+}
+.title {
+  color: #F9EFEC;
+  font-weight: 500;
+  font-family: "Roboto Flex", sans-serif;
+  font-size: 1.5625vw;
+  text-transform:  uppercase;
+}
+
+
+
+

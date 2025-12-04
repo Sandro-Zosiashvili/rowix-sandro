@@ -8,7 +8,7 @@ interface Props {
     description: string;
     image: string;
     name: string;
-    position: number;
+    position: string;
 }
 
 const TestimonialItem = (props: Props) => {
