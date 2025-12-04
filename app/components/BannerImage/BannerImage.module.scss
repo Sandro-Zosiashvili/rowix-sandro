@@ -1,7 +1,9 @@
+@import "../styles/color.scss";
+
 .container {
   width: 30.8854vw;
   height: 30.8333vw;
-  background-color: #1F1F1F;
+  background-color: $onyxBlack;
   position: relative;
   border-radius: 14px;
 }
@@ -12,7 +14,7 @@
 
 .mainBannerImage {
   width: 30.8854vw;
-  background-color: #0F0F0F;
+  background-color: $jetBlack;
 }
 
 .ButtonStart {
@@ -32,7 +34,7 @@
 }
 
 .bannerTitle {
-  color: #F9EFEC;
+  color: $softPink;
   font-family: "Roboto Flex", sans-serif;
   font-weight: 500;
   font-size: 1.25vw;

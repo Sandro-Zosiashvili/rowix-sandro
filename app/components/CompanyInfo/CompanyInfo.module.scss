@@ -1,5 +1,7 @@
+@import "../styles/color.scss";
+
 .container {
-  background-color: #1A1A1A;
+  background-color: $darkCharcoal;
   width: 14.5833vw;
   height: 7.8125vw;
   border-radius: 14px;
@@ -10,7 +12,7 @@
   gap: 0.5208vw;
 }
 .moreInfoContainer {
-  background-color: #1A1A1A;
+  background-color: $darkCharcoal;
   width: 14.5833vw;
   height: 7.8125vw;
   border-radius: 14px;
@@ -23,17 +25,17 @@
 .title {
   font-family: "Roboto Mono", monospace;
   font-weight: 500;
-  color: #B3B3B2;
+  color: $silverGray;
 }
 .moreInfoTitle {
   font-family: "Roboto Mono", monospace;
   font-size: 1.0417vw;
   font-weight: 500;
-  color: #B3B3B2;
+  color: $silverGray;
 }
 .info {
   font-family: "Roboto", sans-serif;
   font-size: 3.125vw;
   font-weight: 600;
-  color: #DA9E8B;
+  color: $roseTan;
 }

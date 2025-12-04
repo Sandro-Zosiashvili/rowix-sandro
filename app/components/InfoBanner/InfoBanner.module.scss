@@ -1,9 +1,9 @@
-
+@import "../styles/color.scss";
 
 .container {
-  background-color: #0F0F0F;
+  background-color: $jetBlack;
   border-radius: 20px;
-  border: 2px solid #1A1A1A;
+  border: 2px solid $darkCharcoal;
   width: 100%;
   padding: 1.0417vw;
   display: flex;

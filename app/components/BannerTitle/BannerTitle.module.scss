@@ -1,7 +1,9 @@
+@import "../styles/color.scss";
+
 .container {
   font-family: "Roboto Flex", sans-serif;
   font-weight: 600;
-  color: #F9EFEC;
+  color: $softPink;
   line-height: 6.1667vw;
 
 }

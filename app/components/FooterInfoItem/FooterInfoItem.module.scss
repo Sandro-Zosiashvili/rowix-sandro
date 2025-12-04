@@ -1,3 +1,5 @@
+@import "../styles/color.scss";
+
 .container {
   width: 9.8047vw;
   display: flex;
@@ -24,9 +26,9 @@
 }
 
 .badge {
-  background-color: #262626;
-  border: 1px solid #333333;
-  color: #CCCCCC;
+  background-color: $charcoalGray;
+  border: 1px solid $darkSlate;
+  color: $lightGray;
   padding: 0.2083vw 0.625vw;
   border-radius: 6px;
   font-size: 0.8333vw;
@@ -36,7 +38,7 @@
 
 .title {
   font-family: "Roboto Mono", monospace;
-  color: #F3DFD8;
+  color: $peachBlush;
   font-weight: 700;
   font-size: 1.1458vw;
 }

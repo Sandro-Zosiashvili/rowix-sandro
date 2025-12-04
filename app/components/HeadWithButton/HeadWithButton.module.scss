@@ -1,3 +1,5 @@
+@import "../styles/color.scss";
+
 .headWithButton {
   display: flex;
   align-items: center;
@@ -5,7 +7,7 @@
   padding: 0 2.6042vw 0 2.6042vw;
   height: 8.75vw;
   border-radius: 16px;
-  background-color: #1A1A1A;
+  background-color: $darkCharcoal;
 }
 
 
@@ -17,7 +19,7 @@
 }
 
 .infoTitle {
-  color: #B3B3B2;
+  color: $silverGray;
   font-weight: 500;
   font-family: "Roboto Mono", monospace;
   font-size: 1.0417vw;

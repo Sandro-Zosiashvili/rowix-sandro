@@ -1,7 +1,9 @@
+@import "../styles/color.scss";
+
 .container {
   width: 2.6042vw;
   height: 2.6042vw;
-  background-color: #E7BEB1;
+  background-color: $softPeach;
   border-radius: 50%;
   overflow: hidden;
   display: flex;
@@ -20,7 +22,7 @@
 .position {
   width: 3.125vw;
   height: 3.125vw;
-  background-color: #CE7D63;
+  background-color: $terraCota;
   border-radius: 50%;
   overflow: hidden;
   display: flex;

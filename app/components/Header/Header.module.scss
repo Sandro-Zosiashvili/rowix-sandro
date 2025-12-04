@@ -1,10 +1,12 @@
+@import "../styles/color.scss";
+
 .container {
   width: 100%;
   margin: 0 auto;
   height: 5.7813vw;
-  background-color: #1A1A1A;
+  background-color: $darkCharcoal;
   border-radius: 16px;
-  border: 1px solid #1C1C21;
+  border: 1px solid $charcoalBlack;
   padding: 1.25vw 1.25vw 1.25vw 2.6042vw;
   display: flex;
   align-items: center;

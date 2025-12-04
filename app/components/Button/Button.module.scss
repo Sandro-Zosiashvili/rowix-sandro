@@ -1,31 +1,33 @@
+@import "../styles/color.scss";
+
 .normal {
   padding: 0.9375vw 1.25vw;
   width: 100%;
   border: none;
-  background-color: #CE7D63;
+  background-color: $terraCota;
   border-radius: 12px;
-  color: #0F0F0F;
+  color: $jetBlack;
   font-family: "Roboto Mono", monospace;
   font-weight: 500;
   font-size: 0.9375vw;
   cursor: pointer;
 }
 .normal:hover {
-  background-color: #E08D73;
+  background-color: $coralClay;
   transform: translateY(-2px);
   box-shadow: 0 4px 12px rgba(206, 125, 99, 0.3);
 }
 
 .normal:active {
-  background-color: #B86D53;
+  background-color: $copperTone;
   transform: translateY(0);
   box-shadow: 0 2px 6px rgba(206, 125, 99, 0.2);
 }
 
 .icon {
   padding: 1.0417vw;
-  background-color: #0F0F0F;
-  border: 1px solid #262626;
+  background-color: $jetBlack;
+  border: 1px solid $charcoalGray;
   border-radius: 50%;
   display: flex;
   align-items: center;
@@ -44,8 +46,8 @@
   align-items: center;
   justify-content: center;
   border-radius: 12px;
-  background-color: #1F1F1F;
-  border: 1px solid #333333;
+  background-color: $onyxBlack;
+  border: 1px solid $darkSlate;
   cursor: pointer;
 }
 
@@ -57,12 +59,12 @@
 .link {
   width: 2.7083vw;
   height: 2.7083vw;
-  border: 1px solid #333333;
+  border: 1px solid $darkSlate;
   border-radius: 50%;
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: #1F1F1F;
+  background-color: $onyxBlack;
   cursor: pointer;
 }
 
@@ -75,12 +77,12 @@
 .more {
   width: 2.7083vw;
   height: 2.7083vw;
-  border: 1px solid #333333;
+  border: 1px solid $darkSlate;
   border-radius: 50%;
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: #1F1F1F;
+  background-color: $onyxBlack;
   cursor: pointer;
 }
 .more img {

@@ -1,5 +1,7 @@
+@import "../styles/color.scss";
+
 .container {
-  background-color: #0F0F0F;
+  background-color: $jetBlack;
   padding: 0.9375vw 1.25vw;
   display: flex;
   align-items: center;
@@ -12,7 +14,7 @@
 }
 
 .active {
-  background-color: #0F0F0F;
+  background-color: $jetBlack;
   font-size: 0.9375vw;
   padding: 0.9375vw 1.25vw;
   display: flex;
@@ -21,5 +23,5 @@
   border-radius: 12px;
   font-family: "Roboto Mono", monospace;
   font-weight: 500;
-  color: #E7BEB1;
+  color: $softPeach;
 }

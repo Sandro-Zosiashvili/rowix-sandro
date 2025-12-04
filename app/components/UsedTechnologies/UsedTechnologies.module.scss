@@ -1,5 +1,7 @@
+@import "../styles/color.scss";
+
 .container {
-  background-color: #1A1A1A;
+  background-color: $darkCharcoal;
   width: 30.1563vw;
   height: 11.7188vw;
   padding: 2.0833vw;
@@ -12,18 +14,18 @@
 
 .title {
   text-transform: uppercase;
-  color: #FFFFFF;
+  color: $White;
   font-size: 0.9375vw;
   font-family: "Roboto Flex", sans-serif;
   font-weight: 500;
 }
 .item {
   padding: 0.5208vw 0.8333vw;
-  background-color: #1F1F1F;
+  background-color: $onyxBlack;
   border-radius: 45px;
   font-weight: 400;
   font-family: "Roboto Mono", monospace;
-  color: #E6E6E6;
+  color: $mistGray;
   font-size: 0.8333vw;
 }
 .itemWrapper {

@@ -1,5 +1,7 @@
+@import "../../styles/color.scss";
+
 .container {
-  background-color: #0F0F0F;
+  background-color: $jetBlack;
   height: 31.9792vw;
   width: 100%;
   border-radius: 24px;
@@ -7,13 +9,13 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  border: 2px solid #1A1A1A;
+  border: 2px solid $darkCharcoal;
   margin-top: 120px;
 
 }
 .title {
   padding: 2.6042vw 0 0 2.6042vw;
-  background-color: #1A1A1A;
+  background-color: $darkCharcoal;
   height: 8.125vw;
   width: 100%;
   border-radius: 16px;

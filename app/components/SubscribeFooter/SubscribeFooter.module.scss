@@ -1,16 +1,18 @@
+@import "../styles/color.scss";
 
 .container {
   width: 54.8438vw;
   height: 9.7792vw;
-  background-color: #1A1A1A;
+  background-color: $darkCharcoal;
   padding: 2.6042vw;
   display: flex;
   justify-content: space-between;
   border-radius: 16px;
+  margin-top: -0.1042vw;
 }
 
 .title {
-  color: #676665;
+  color: $stormGray;
   font-weight: 400;
   font-family: "Roboto Mono", monospace;
   font-size: 0.9375vw;
@@ -18,7 +20,7 @@
 }
 
 .secondTitle {
-  color: #F9EFEC;
+  color: $softPink;
   font-weight: 500;
   font-family: "Roboto Flex", sans-serif;
   text-transform: uppercase;
@@ -35,16 +37,16 @@
   width: 20.5208vw;
   padding: 0.9375vw 1.0417vw;
   border: none;
-  border-bottom: 1px solid #333333;
+  border-bottom: 1px solid $darkSlate;
   font-family: "Roboto Flex", sans-serif;
   font-size: 0.9375vw;
-  color: #F9EFEC;
-  background-color: #1A1A1A;
+  color: $softPink;
+  background-color: $darkCharcoal;
 
 }
 
 .input::placeholder {
-  color: #676665;
+  color: $stormGray;
 }
 
 .input:focus {

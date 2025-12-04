@@ -1,31 +1,23 @@
+@import "../styles/color.scss";
+
 .scrollContainer {
   width: 100%;
   overflow: hidden;
   padding: 1.0417vw 0;
-  background-color: #0F0F0F;
+  background-color: $jetBlack;
   border-radius: 12px;
   text-transform: uppercase;
 
   &.large {
-    background-color: #1A1A1A;
+    background-color: $darkCharcoal;
     margin: 1.0417vw 0 1.0417vw 0;
 
   }
 
   .scrollItem {
-    color: #676665;
+    color: $stormGray;
   }
 }
-
-//.largeScroll {
-//  width: 100%;
-//  overflow: hidden;
-//  padding: 1.0417vw 0;
-//  background-color: #1A1A1A;
-//  border-radius: 12px;
-//  color: #676665;
-//  text-transform: uppercase;
-//}
 
 .scrollContent {
   display: flex;
@@ -38,13 +30,13 @@
   display: flex;
   gap: 0.5208vw;
   font-size: 1.0417vw;
-  color: #676665;
+  color: $stormGray;
   text-transform: uppercase;
   letter-spacing: 1px;
 }
 
 .dot {
-  color: #CE7D63;
+  color: $terraCota;
   width: 0.3646vw;
   height: 0.3646vw;
 }

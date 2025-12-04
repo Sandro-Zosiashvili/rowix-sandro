@@ -1,6 +1,7 @@
+@import "../styles/color.scss";
 
 .container {
-  background-color: #1A1A1A;
+  background-color: $darkCharcoal;
   width: 30.1563vw;
   height: 4.6875vw;
   padding: 1.0417vw 2.0833vw;
@@ -12,7 +13,7 @@
 
 .title {
   text-transform: uppercase;
-  color: #FFFFFF;
+  color: $White;
   font-size: 0.9375vw;
   font-family: "Roboto Flex", sans-serif;
   font-weight: 500;

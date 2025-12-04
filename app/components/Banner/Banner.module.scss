@@ -1,3 +1,4 @@
+@import "../styles/color.scss";
 
 .container {
   background-color: #CE7D63;
@@ -14,11 +15,11 @@
   font-family: "Roboto Flex", sans-serif;
   font-weight: 500;
   text-transform:  uppercase;
-  color: #0F0F0F;
+  color: $jetBlack;
 
 }
 .description {
-  color: #262626;
+  color: $charcoalGray;
   font-family: "Roboto Flex", sans-serif;
   font-weight: 400;
   font-size: 0.9375vw;
@@ -37,9 +38,9 @@
   align-items: center;
   justify-content: center;
   gap: 0.5208vw;
-  color: #F3DFD8;
+  color: $peachBlush;
   border: none;
-  background-color: #0F0F0F;
+  background-color: $jetBlack;
   font-family: "Roboto Flex", sans-serif;
   font-size: 0.9375vw;
   text-transform:  uppercase;
@@ -49,14 +50,14 @@
   align-self: flex-end;
 
   &:hover {
-    background-color: #1A1A1A;
-    color: #FFFFFF;
+    background-color: $darkCharcoal;
+    color: $White;
     transform: translateY(-2px);
     box-shadow: 0 4px 16px rgba(0, 0, 0, 0.4);
   }
 
   &:active {
-    background-color: #000000;
+    background-color: $trueBlack;
     transform: translateY(0);
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
   }

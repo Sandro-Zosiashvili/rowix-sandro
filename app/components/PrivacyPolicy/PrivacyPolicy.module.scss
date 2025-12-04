@@ -1,14 +1,15 @@
+@import "../styles/color.scss";
 
 .container {
   width: 54.8438vw;
   height: 6.6146vw;
-  background-color: #1A1A1A;
+  background-color: $darkCharcoal;
   border-radius: 16px;
   padding: 2.6042vw;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  color: #B3B3B2;
+  color: $silverGray;
   font-family: "Roboto Mono", monospace;
   font-weight: 400;
   font-size: 0.9375vw;
@@ -20,6 +21,6 @@
   gap: 0.5729vw;
 }
 .line {
-  border-left: 1px solid #232329;
+  border-left: 1px solid $ebonyGray;
   height: 1.4063vw;
 }
